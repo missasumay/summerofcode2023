@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body {
+    background-color: #cb92ff;
+    color: #fff;
+}
+
+#main {
+margin-top: 15%;
+margin-left: 15%;
+}
+
+#title {
+    font-family: 'PT Sans';
+    color: #e4ffa7;
+    font-size: 120px;
+    float: left;
+    position: absolute;
+    letter-spacing: 10px;
+    margin-top: -2%;
+    line-height: 100px;
+}
+
+#descr {
+font-style: italic;
+font-family: 'PT Serif';
+margin-top: -7%;
+font-size: 30px;
+margin-left: 700px;
+}
+
+#pic {
+content: url(images/emily.jpg);
+float: left;
+width: 600px;
+height: 600px;
+}
+
+#menu {
+margin-left: 15%;
+display: flex;
+gap: 20px;
+}
+
+#links {
+font-size: 40px;
+color: #e4ffa7;
+line-height: 100px;
+font-weight: bolder;
+float: left;
+margin-left: 50px;
+
+}
+
+#opis {
+color: #fff;
+line-height: 100px;
+font-size: 30px;
+}
+
+a {
+    color: #fff;
+    line-height: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    }
