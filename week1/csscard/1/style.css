@@ -1,0 +1,50 @@
+body {
+    background-color: #f8e2ef;
+    color: #368b9b;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #d45d84;
+}
+
+#all {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#logo {
+content: url("images/bg_logo.png");
+height: 200px;
+width: 200px;
+float: left;
+}
+
+#title
+{
+font-size: 60px;
+font-weight: bold;
+color: #e91691;
+}
+
+#sub {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#text {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 500px;
+    text-align: justify;
+}
+
+#links {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#footer {
+    font-size: 12px;
+    margin-top: 20px;
+}

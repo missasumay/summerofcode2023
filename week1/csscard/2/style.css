@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #D4B33A;
+}
+
+#all {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#logo {
+content: url("images/logowhite.png");
+height: 240px;
+width: 300px;
+float: left;
+}
+
+#title
+{
+font-size: 60px;
+font-weight: bold;
+color: #D4B33A;
+}
+
+#sub {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#text {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 600px;
+    text-align: justify;
+}
+
+#links {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#footer {
+    font-size: 12px;
+    margin-top: 20px;
+}
