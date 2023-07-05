@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #010326;
+    display: flex;
+    flex-direction: row;
+    color: #A46E9F;
+    margin: 5%;
+    max-height: 80vh;
+    font-family: Calibri;
+    text-align: justify;
+}
+
+footer > a {
+    font-size: 15px;
+    color: #806FB5;
+    text-decoration: wavy;
+}
+
+footer > a:hover {
+    color: #010326;
+    background-color: #806FB5;
+    letter-spacing: 10px;
+}
+
+nav {
+    flex: 1;
+    background-color: #1B1159;
+    padding: 1em;
+}
+
+ul {
+    list-style-image: url('images/star.png');
+    font-size: 32px;
+    letter-spacing: 5px;
+    line-height: 40px;
+  }
+
+all {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-image: url(images/sky.jpg);
+    height: 15vh;
+    background-position: 40%;
+    font-family: Caprasimo;
+    font-size: 60px;
+}
+
+.content > glowny {
+    background-color: #010326;
+    flex: 3;
+    min-height: 40vh;
+}
+
+.content > aside {
+    background-color: #041348;
+    flex: 1;
+}
+
+footer {
+    background-image: url(images/bg.png);
+    background-repeat: repeat;
+    height: 15vh;
+    font-size: 10px;
+}
+
+header, footer, glowny, nav, aside {
+    padding: 1em;
+}
