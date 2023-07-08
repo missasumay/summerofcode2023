@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+consent {
+    font-size: 0.7em;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+exp > h1 {
+    color: #042940;
+    font-weight: bold;
+}
+
+exp > h2 {
+    color: #005C53;
+    text-decoration: dashed;
+}
+
+exp > h3 {
+    color: #042940;
+}
+
+exp > h4 {
+    color: #005C53;
+    font-style: italic;
+    font-weight: bold;
+}
+
+exp > hr {
+    border: 0.1em dashed #042940;
+}
+
+info > h1 {
+    color: #2D5930;
+    font-family: Damion;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+info > h2 {
+    font-weight: bold;
+}
+
+info > h3 {
+    font-style: italic;
+}
+
+a {
+    color: #888C03;
+    font-weight: bold;
+}

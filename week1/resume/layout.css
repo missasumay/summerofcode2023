@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #D5E7F2;
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    max-height: 80vh;
+    font-size: 1em;
+    font-family: Calibri, serif;
+}
+
+all {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.resume > exp {
+    background-color: #B9BF04;
+    flex: 3;
+    color: #042940;
+}
+
+@media screen and (max-width: 1280px) {
+    .resume > info {
+        background-color: #D9C24E;
+        flex: 1;
+        color: #0E2618;
+
+    }
+   }
+   
+@media screen and (min-width: 1281px) {
+    .resume > info {
+        background-color: #D9C24E;
+        flex: 1;
+        max-height: 80vh;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 10vh;
+        color: #0E2618;
+    }
+   }
+
+footer {
+    height: 15vh;
+    font-size: 0.7em;
+    color: #042940;
+}
+
+header, footer, resume, exp, info {
+    padding: 1em;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
