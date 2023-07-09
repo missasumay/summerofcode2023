@@ -6,11 +6,11 @@ body {
     background-color: white;
     display: flex;
     flex-direction: row;
-    border: 2em solid #ec8889;
+    border: 2vw solid #ec8889;
     margin: 0px;
     height: 100vh;
     font-family: Roboto Slab;
-    font-size: 1.2em;
+    font-size: 1vw;
     font-weight: 200;
     text-align: justify;
 }
@@ -21,7 +21,7 @@ bg {
     flex: 3;
     align-items: center;
     justify-content: center;
-    margin: 10vh 30vh 10vh 40vh;
+    margin: 10vh 20vw 10vh 20vw;
 
 }
 
@@ -34,6 +34,44 @@ bg > socials {
 }
 
 bg, socials, info {
-    padding: 1em;
+    padding: 10px;
 }
 
+
+@media screen and (max-width: 1799px) {
+
+    body {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        border: 2vw solid #ec8889;
+        height: 100vh;
+        font-family: Roboto Slab;
+        font-size: 1vw;
+        font-weight: 200;
+        text-align: justify;
+    }
+    
+    bg {
+        display: flex;
+        flex-direction: row;
+        flex: 3;
+        align-items: center;
+        justify-content: center;
+        margin: 10vh 20vw 10vh 20vw;
+    
+    }
+    
+    bg > info {
+        flex: 3;
+    }
+    
+    bg > socials {
+        flex: 1;
+    }
+    
+    bg, socials, info {
+        padding: 1vh;
+    }
+    
+    }

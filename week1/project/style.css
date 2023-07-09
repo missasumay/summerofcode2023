@@ -60,3 +60,65 @@ download > img {
     height: 24px;
     margin-right: 5px;
 }
+
+@media screen and (max-width: 1799px) {
+
+    .photo {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 5vh;
+    }
+    
+    .socialki {
+        width: 3vw;
+        margin-right: 2vh;
+        height: 3vw;
+    }
+    
+    .basic {
+        color: #ec8889;
+        font-weight: 500;
+    }
+    
+    intr {
+        font-family: Roboto;
+        font-weight: 100;
+        font-size: 3em;
+    }
+    
+    subintr {
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+    
+    download {
+        background-color: #ec8889;
+        border: none;
+        color: white;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 25px;
+        width: 400px;
+    }
+    
+    download > a {
+        color: white;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: -1vh;
+    }
+    
+    download > img {
+        width: 2vh;
+        height: 2vh;
+        margin-right: 1vh;
+    }
+
+}
